@@ -8,7 +8,7 @@ with SB(uc=True, test=True, locale_code="en") as sb:
     sb.activate_cdp_mode(url)
     sb.open(url)
     sb.type("#login-email", "shojibmdalamgir@gmail.com")
-    sb.type("#login-password", PASSWORD)
+    sb.type("#login-password", "Sasuke$97")
     sb.uc_gui_click_captcha()
     sb.click("button.button.primary.g-recaptcha")
     sb.click("a#advanced")
