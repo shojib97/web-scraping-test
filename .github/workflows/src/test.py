@@ -12,10 +12,10 @@ class MyTestClass(BaseCase):
         self.type("#login-email", "shojibmdalamgir@gmail.com")
         self.type("#login-password", PASSWORD)
         self.click("button.button.primary.g-recaptcha")
-        self.click("a#advanced")  # Using the CSS selector to click on the <a> element
-        self.click(
-            'a[href="/Services/Booking/1133"] button.button.primary'
-        )  # Click on the button inside the <a> element
+        # self.click("a#advanced")  # Using the CSS selector to click on the <a> element
+        # self.click(
+        #     'a[href="/Services/Booking/1133"] button.button.primary'
+        # )  # Click on the button inside the <a> element
 
     def tearDown(self):
         # Override tearDown to prevent browser from closing
