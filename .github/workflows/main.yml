@@ -22,6 +22,6 @@ jobs:
 
     - name: Run Python script
       run: |
-        python .github/workflow/src/test.py
+        python .github/workflows/src/test.py
       env:
         PASSWORD: ${{ secrets.PASSWORD }}
